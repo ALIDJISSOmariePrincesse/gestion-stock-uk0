@@ -10,6 +10,24 @@ public class Crud {
         nomProduit = pNomProduit;
         quantite = pQuantite;
         prix = pPrix;
+        System.out.println("nomProduit :");
+        String nomProduit= sc.nextLine();
+        sc.nextLine();
+
+
+        System.out.println("quantite ;");
+        int quantite = sc.nextInt();
+
+        System.out.println("prix :");
+        double prix =sc.nextDouble();
+
+        Produit (p) = new Produit(nomProduit,quantite,prix);
+        list.add(p);
+
+        System.out.println("Produit ajoute !");
+        break;
+
+
     }
 
     // 2- Modifier : une méthode ModifierProduit(String pNomProduit,int
