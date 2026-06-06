@@ -1,9 +1,9 @@
 public class Crud {
 
     // Attributs
-    private String nomProduit = "";
-    private int quantite = 0;
-    private double prix = 0.0;
+    String nomProduit = "";
+    int quantite = 0;
+    double prix = 0.0;
 
     // Constructeur d'initialisation
     public Crud(String pNomProduit, int pQuantite, double pPrix) {
